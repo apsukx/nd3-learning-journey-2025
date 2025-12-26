@@ -1,7 +1,5 @@
 # 1.Thailand’s Industrial Automation  
 
----
-
 ## 1.1 Introduction
 
 Thailand has long been recognized as one of the major manufacturing bases in Southeast Asia, particularly in industries such as automotive, electronics, food processing, and consumer goods. Historically, the country’s manufacturing sector relied heavily on labor-intensive processes supported by relatively low labor costs.
@@ -401,7 +399,6 @@ By enabling experimentation without disrupting physical systems, digital twins r
 
 ## 5. Data Processing in Industrial Systems
 
----
 
 ## 5.1 Nature of Industrial Data
 
@@ -450,7 +447,6 @@ Most industrial systems adopt a **hybrid approach**, processing critical data at
 
 ## 6. Machine Learning in Industrial Automation
 
----
 
 ## 6.1 Role of Machine Learning
 
@@ -569,4 +565,4 @@ I am aware that my learning path may be slower compared to others who have a str
 
 This document reflects both the technical knowledge I have been exposed to and my personal motivation to grow beyond my current role. It represents a learning journey from practical field work toward a more connected and system-oriented view of industrial automation.
 
----
+
