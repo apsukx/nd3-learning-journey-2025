@@ -255,8 +255,6 @@ As a result, IIoT systems often employ **multiple communication protocols**, eac
 
 ## 12. OPC UA and OT Network Architecture
 
----
-
 ## 12.1 Operational Technology (OT) Networks
 
 Operational Technology (OT) networks are responsible for monitoring and controlling physical processes. They differ from IT networks in several fundamental aspects:
@@ -308,11 +306,6 @@ Asset
 ├── Maintenance
 └── HistoricalData
 ```
-
-
-This semantic richness enables consistent interpretation of data across different applications and vendors.
-
----
 
 ## 12.4 OPC UA Communication Models
 
@@ -415,7 +408,6 @@ By enabling experimentation without disrupting physical systems, digital twins r
 
 ## 14. Data Processing in Industrial Systems
 
----
 
 ## 14.1 Nature of Industrial Data
 
@@ -465,7 +457,6 @@ Most industrial systems adopt a **hybrid approach**, processing critical data at
 
 ## 15. Machine Learning in Industrial Automation
 
----
 
 ## 15.1 Role of Machine Learning
 
