@@ -195,8 +195,7 @@ The ultimate goal is not full automation itself, but a **resilient, competitive,
 Thailand has already begun its journey toward industrial automation. Although the transformation is gradual and uneven, the direction is clear. With continued government support, growing SME participation, and a focus on people and sustainability, Thailand has the potential to evolve into a modern smart manufacturing nation.
 
 ---
----
----
+
 
 ## 11. Industrial Networking and Industrial IoT (IIoT)
 
