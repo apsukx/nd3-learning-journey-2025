@@ -553,7 +553,7 @@ Decision Support and Optimization
 
 ---
 
-## 8. Personal Reflection and Learning Motivation
+## 8. Future Works/Projects
 
 I currently work in the field of industrial automation, with hands-on experience mainly focused on **PLC-based control systems and on-site operations**. My role involves practical tasks such as machine commissioning, troubleshooting, and maintaining stable production processes.
 
