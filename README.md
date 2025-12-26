@@ -1,7 +1,3 @@
-# Industrial Automation, Networking, and Data-Driven Systems
-
----
-
 # 1. Thailand’s Industrial Automation  
 
 ## 1.1 Introduction
@@ -12,7 +8,7 @@ However, in recent years, structural changes have begun to reshape Thailand’s 
 
 ---
 
-## 1.2 Current State of Industrial Automation
+## 1.2 Current State of Industrial Automation in Thailand
 
 ### 1.2.1 A Transition, Not a Leap
 
@@ -24,9 +20,9 @@ Typical characteristics include:
 - CNC machining replacing manual tooling
 - Basic data collection for production monitoring
 
-The general transformation path can be summarized as:
+The transformation path can be summarized as follows:
 
-'''
+```
 Manual Production
 ↓
 Machine-Assisted Operations
@@ -35,28 +31,27 @@ Partial Automation
 ↓
 Connected Automation (IIoT)
 ↓
-Smart Factory
-'''
+Smart Factory (Industry 4.0)
+```
 
-
-Rather than aiming immediately for full automation, manufacturers often adopt **incremental improvements** to control cost and operational risk.
+Rather than aiming immediately for full automation, Thai manufacturers often adopt **incremental improvements** to control cost and risk.
 
 ---
 
 ## 1.3 Automation Adoption in SMEs
 
-### 1.3.1 Role of SMEs
+### 1.3.1 Importance of SMEs in Thailand
 
-SMEs represent a large portion of manufacturing facilities and are critical to economic stability. Compared to large enterprises, SMEs often face:
+SMEs account for the majority of manufacturing facilities in Thailand and play a crucial role in employment and economic stability. Unlike large multinational corporations, SMEs face constraints such as:
 - Limited investment capital
-- Shortage of automation expertise
-- Uncertainty regarding return on investment (ROI)
+- Lack of automation specialists
+- Uncertainty about long-term return on investment (ROI)
 
-As a result, automation adoption tends to be **practical and problem-driven**.
+As a result, automation adoption in SMEs tends to be **selective and practical**, focusing on areas with immediate benefits.
 
-### 1.3.2 Typical SME Automation Use Cases
+### 1.3.2 Common SME Automation Use Cases
 
-Common implementations include:
+Instead of fully integrated robotic lines, SMEs typically implement:
 - Automated packaging systems
 - Vision-based quality inspection
 - Semi-automatic assembly stations
@@ -66,211 +61,228 @@ These solutions help SMEs:
 - Reduce human error
 - Improve product consistency
 - Increase productivity
-- Address labor shortages
+- Mitigate labor shortages
 
 ---
 
-## 1.4 Government Support and Policy Direction
+## 1.4 Government Support and National Strategy
 
-### 1.4.1 Thailand 4.0 Framework
+### 1.4.1 Thailand 4.0 Policy Framework
 
-Industrial automation aligns with the **Thailand 4.0** strategy, which emphasizes:
+Industrial automation aligns strongly with the **Thailand 4.0** policy, which emphasizes:
 - Digital transformation
 - Smart manufacturing
 - High-value industries
 - Workforce reskilling
 
-### 1.4.2 Supporting Organizations
+The Thai government recognizes that automation is not only a productivity tool, but also a foundation for long-term industrial competitiveness.
 
-Key supporting institutions include:
-- Digital Economy Promotion Agency (depa)
-- NSTDA / NECTEC
-- Board of Investment (BOI)
+### 1.4.2 Supporting Agencies and Programs
 
-The relationship between policy and industrial development can be visualized as:
+Several public institutions actively support automation initiatives:
 
+- **Digital Economy Promotion Agency (depa)**  
+- **NSTDA / NECTEC**  
+- **Board of Investment (BOI)**  
+
+The relationship between policy and industry development can be illustrated as:
+
+```
 Government Policy
 ↓
-Incentives & Support
+Funding & Incentives
 ↓
 Technology Adoption
 ↓
 Industrial Competitiveness
+```
+
+---
+
+## 1.5 Key Technologies Driving Automation
+
+### 1.5.1 Core Automation Technologies
+
+Automation in Thailand increasingly integrates the following technologies:
+- Programmable Logic Controllers (PLC)
+- SCADA and HMI systems
+- Industrial Internet of Things (IIoT)
+- Robotics and collaborative robots (cobots)
+- Machine vision systems
+- Manufacturing data analytics
+
+A simplified smart factory architecture:
+
+Sensors → PLC → SCADA → Cloud Platform → Dashboard → Decision Making
 
 
 ---
 
-## 1.5 Challenges and Future Direction
+## 1.6 Role of Industrial Exhibitions and Knowledge Transfer
 
-Key challenges include:
+Thailand regularly hosts major industrial and automation exhibitions such as:
+- Automation Thailand
+- Manufacturing Expo
+- Intelligent Asia Thailand
+
+---
+
+## 1.7 Regional and Global Perspective
+
+Within ASEAN, Thailand is positioned as a regional manufacturing hub.
+
+---
+
+## 1.8 Challenges and Limitations
+
+Despite positive momentum, several challenges remain:
 - Shortage of skilled automation engineers
-- High initial investment cost
+- High initial investment costs
 - Resistance to organizational change
-- Cybersecurity risks
-
-Future automation should focus on:
-- People-centric automation
-- SME-friendly solutions
-- Workforce development
-- Sustainable manufacturing
+- Cybersecurity risks in connected factories
 
 ---
 
-## 1.6 Conclusion
+## 1.9 Vision for the Future
 
-Thailand’s industrial automation journey is gradual but clearly directional. With continued support, skill development, and appropriate technology adoption, the manufacturing sector can evolve toward a more resilient and competitive future.
+The future direction of Thailand’s industrial automation should focus on:
+
+1. People-centric automation  
+2. SME-friendly automation  
+3. Workforce development  
+4. Sustainable manufacturing  
+
+---
+
+## 1.10 Conclusion
+
+Thailand has already begun its journey toward industrial automation. Although the transformation is gradual and uneven, the direction is clear.
 
 ---
 
 # 2. Industrial Networking and IoT
 
-## 2.1 Industrial Networking Fundamentals
+## 2.1 Industrial Networking and Industrial IoT (IIoT)
 
-Industrial networking forms the communication backbone of modern automation systems. Unlike IT networks, industrial networks are designed for:
-- Deterministic behavior
-- Low and bounded latency
-- High reliability
-- Long lifecycle operation
-- Harsh environmental conditions
+### 2.1.1 Purpose of Industrial Networking
 
-These characteristics are essential for maintaining safe and stable industrial processes.
+Industrial networking forms the communication backbone of modern automation systems.
 
 ---
 
-## 2.2 Industrial IoT (IIoT) Architecture
+### 2.1.2 Industrial IoT (IIoT) Architecture
 
-Industrial IoT extends classical automation by enabling large-scale data acquisition and integration.
-
-A reference IIoT architecture:
-
+```
 Physical Assets
 ↓
 Sensors and Actuators
 ↓
-PLC / DCS
+Controllers (PLC / PAC / DCS)
 ↓
-Industrial Network
+Industrial Communication Network
 ↓
-Edge Computing
+Edge Computing and Gateways
 ↓
-Cloud / Enterprise Systems
+Enterprise Systems / Cloud Platforms
 ↓
-Analytics and Optimization
-
-
-Time-critical control remains at the lower layers, while analytics and optimization occur at higher layers.
+Analytics, Visualization, and Optimization
+```
 
 ---
 
-## 2.3 Operational Technology (OT) Networks
+### 2.1.3 Communication Requirements in IIoT Systems
 
-OT networks focus on controlling physical processes and differ fundamentally from IT networks.
+IIoT communication must satisfy multiple requirements:
+- Low latency
+- High bandwidth
+- Secure communication
+- Interoperability
 
-| Aspect | OT | IT |
-|------|----|----|
+---
+
+## 2.2 OPC UA and OT Network Architecture
+
+### 2.2.1 Operational Technology (OT) Networks
+
+| Aspect | OT Networks | IT Networks |
+|-----|------------|-------------|
 | Primary goal | Process control | Information processing |
-| Latency | Deterministic | Best effort |
-| Lifecycle | Long-term | Short-term |
+| Latency | Deterministic | Best-effort |
+| Lifecycle | Long-term | Shorter |
 | Failure tolerance | Very low | Moderate |
 
 ---
 
-## 2.4 OPC UA Overview
+### 2.2.2 OPC UA Overview and Standardization
 
-OPC Unified Architecture (OPC UA), defined in **IEC 62541**, is a platform-independent industrial communication standard.
-
-Key characteristics:
-- Secure communication by design
-- Vendor-neutral interoperability
-- Scalable information modeling
-- Client–Server and PubSub support
-
-OPC UA is widely adopted as an integration layer across heterogeneous systems.
+OPC Unified Architecture (OPC UA) is defined in **IEC 62541**.
 
 ---
 
-## 2.5 OPC UA Information Modeling
-
-OPC UA enables semantic information exchange rather than raw data transfer.
-
-Example structure:
+### 2.2.3 OPC UA Information Modeling
 
 Asset
 ├── Identification
-├── State
+├── OperationalState
 ├── Parameters
 ├── Diagnostics
 ├── Maintenance
-└── Historical Data
+└── HistoricalData
 
-
-This modeling capability supports interoperability, analytics, and digital twins.
 
 ---
 
-## 2.6 OPC UA Communication Models
+### 2.2.4 OPC UA Communication Models
 
-- **Client–Server**  
-  Used for monitoring, diagnostics, and configuration
-
-- **Publish–Subscribe (PubSub)**  
-  Data-centric and scalable  
-  Suitable for distributed and IIoT systems
+1. Client–Server  
+2. Publish–Subscribe (PubSub)
 
 ---
 
-## 2.7 OPC UA in OT Network Integration
-
-OPC UA commonly acts as:
-- A standardized interface
-- A data abstraction layer
-- A bridge between OT and higher-level systems
-
-It complements, rather than replaces, field-level protocols.
+### 2.2.5 OPC UA in OT Network Integration
 
 ---
 
 # 3. Digital Twins
 
-## 3.1 Definition
+## 3.1 Definition and Concept
 
-A **Digital Twin** is a digital representation of a physical system continuously updated with real-world data. The concept is standardized in **ISO 23247** for manufacturing.
+A **Digital Twin** is a digital representation of a physical system.
 
 ---
 
 ## 3.2 Digital Twin Architecture
 
+```
 Physical System
 ↓
-Sensors & Data Acquisition
+Sensors and Data Acquisition
 ↓
-Integration Layer
+Data Integration Layer
 ↓
 Digital Model
 ↓
-Simulation & Analysis
+Simulation and Analysis
 ↓
 Decision Support
-
+```
 
 ---
 
 ## 3.3 Types of Digital Twin Models
 
-- Physics-based models
-- Data-driven models
-- Hybrid models
-
-Hybrid approaches balance accuracy and adaptability.
+- Physics-based models  
+- Data-driven models  
+- Hybrid models  
 
 ---
 
-## 3.4 Applications
+## 3.4 Applications of Digital Twins
 
 Digital twins enable:
 - Virtual commissioning
 - Predictive maintenance
-- Scenario analysis
+- Scenario testing
 - Performance optimization
 - Operator training
 
@@ -282,136 +294,98 @@ Digital twins enable:
 
 ### 4.1.1 Nature of Industrial Data
 
-Industrial data is typically:
-- Time-series based
-- High-frequency
-- Noisy
-- Process-dependent
-
 ---
 
-### 4.1.2 Data Processing Pipeline
+### 4.1.2 Industrial Data Processing Pipeline
 
 Data Acquisition
 ↓
 Signal Conditioning
 ↓
-Cleaning & Validation
+Data Cleaning and Validation
 ↓
 Feature Extraction
 ↓
-Storage & Context
+Storage and Contextualization
 
-Contextualization is critical for meaningful analytics.
 
 ---
 
-### 4.1.3 Edge vs Central Processing
+### 4.1.3 Edge vs Centralized Processing
 
 | Aspect | Edge | Central |
-|------|------|---------|
+|----|------|---------|
 | Latency | Low | Higher |
-| Bandwidth | Low | High |
+| Bandwidth usage | Low | High |
 | Scalability | Limited | High |
-
-Most systems adopt a hybrid approach.
 
 ---
 
 ## 4.2 Machine Learning in Industrial Automation
 
 ### 4.2.1 Role of Machine Learning
-
-Machine learning helps identify patterns not easily captured by rule-based logic and supports:
-- Decision-making
-- Reliability improvement
-- Efficiency optimization
-
----
-
-### 4.2.2 Machine Learning Workflow
-
+```
 Problem Definition
 ↓
 Data Collection
 ↓
-Preprocessing
+Data Preprocessing
 ↓
 Feature Engineering
 ↓
-Training
+Model Training
 ↓
-Validation
+Model Validation
 ↓
-Deployment & Monitoring
-
-Problem Definition
-↓
-Data Collection
-↓
-Preprocessing
-↓
-Feature Engineering
-↓
-Training
-↓
-Validation
-↓
-Deployment & Monitoring
-
+Deployment and Monitoring
+```
 
 ---
 
-### 4.2.3 Industrial Applications
+### 4.2.3 Common Industrial ML Applications
 
-**Predictive Maintenance**
-- Anomaly detection
-- Remaining useful life estimation
-
-**Quality Inspection**
-- Vision-based defect detection
-- CNN-based classification
-
-**Process Optimization**
-- Parameter tuning
-- Energy optimization
+#### Predictive Maintenance  
+#### Quality Control and Inspection  
+#### Process Optimization  
 
 ---
 
 ### 4.2.4 Explainability and Trust
 
-Industrial ML systems must be interpretable, validated, and aligned with domain knowledge. Explainable AI (XAI) is essential for trust and adoption.
-
 ---
 
 ## 4.3 Integrated Reference Architecture
 
-
+```
 Field Devices
 ↓
 OT Network
 ↓
-OPC UA
+OPC UA Communication Layer
 ↓
 Edge Processing
 ↓
-Data Platform
+Data Management Platform
 ↓
-Machine Learning & Digital Twins
+Machine Learning and Digital Twins
 ↓
-Decision Support
-
+Decision Support and Optimization
+```
 
 ---
 
 # 5. Future Works / Projects
 
-I currently work in the field of industrial automation, with hands-on experience mainly focused on **PLC-based control systems and on-site operations**. My work involves commissioning, troubleshooting, and maintaining stable production processes.
+I currently work in the field of industrial automation, with hands-on experience mainly focused on **PLC-based control systems and on-site operations**. My role involves practical tasks such as machine commissioning, troubleshooting, and maintaining stable production processes.
 
-After completing the **ND3-2025 program**, I began to see automation from a broader perspective. Some topics extended beyond my usual field-level responsibilities and led me to develop interest in **coding, system-level thinking, and connected industrial systems**.
+After completing the **ND3-2025 program**, I began to see industrial automation from a broader perspective than before. Some of the topics I encountered during the course were new to me and extended beyond my usual field-level responsibilities.
 
-I do not consider myself highly knowledgeable in software or advanced digital technologies. However, with modern learning resources and **AI-based tools**, I am able to gradually explore new concepts and continue learning step by step.
+I do not consider myself highly knowledgeable in software development or advanced digital technologies. However, I believe that learning does not require starting from an advanced level.
 
-Although my learning path may be slower than others, my intention is to continuously improve and expand my understanding. Moving forward, I aim to focus on **Industrial IoT, OT networks, and the interaction between automation systems and software-based platforms**.
+Although my learning path may be slower compared to others, my intention is not to compete, but to **continuously improve and expand my understanding**. Going forward, I aim to focus more on learning about **Industrial IoT (IIoT), OT networks, and the interaction between automation systems and software-based platforms**.
 
 ---
+
+### 4.2.2 Machine Learning Workflow
+
+
